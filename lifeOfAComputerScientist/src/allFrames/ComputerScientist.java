@@ -1,5 +1,5 @@
 package allFrames;
-// Sophie Zhang, 653342
+// Sophie Zhang
 import java.util.ArrayList;
 import java.lang.Math;
 
