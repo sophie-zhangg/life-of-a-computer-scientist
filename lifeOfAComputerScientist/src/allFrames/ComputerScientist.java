@@ -10,22 +10,21 @@ public class ComputerScientist {
 	private String title;
 	private int numOfHours;
 	private double hourWage;
-    private String company;
-    private double moneyEarned;
-    private ArrayList<String> knownLang=new ArrayList<String>(0);
-    private boolean fluent;
+	private String company;
+	private double moneyEarned;
+	private ArrayList<String> knownLang=new ArrayList<String>(0);
+	private boolean fluent;
 	private String name;
 	private int happiness;
     
     // Constructors
-    public ComputerScientist() //Default
-    {
-    	this.title="Computer Scientist";
-    	this.numOfHours=8;
-    	this.hourWage=14;
-        this.moneyEarned=0;
-        this.happiness=10;
-    }
+	public ComputerScientist() {
+	this.title="Computer Scientist";
+	this.numOfHours=8;
+	this.hourWage=14;
+	this.moneyEarned=0;
+	this.happiness=10;
+	}
     
 	public ComputerScientist(String name, String title, int numOfHours, String company, ArrayList<String> knownLang) { //Specialized
 		super();
